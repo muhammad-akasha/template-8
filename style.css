@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&display=swap");
+body {
+  padding: 0px 150px;
+  text-transform: capitalize;
+  background: #ffffff;
+  font-family: "DM Sans", sans-serif;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.navbar > h2 {
+  color: #1e0e62;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  align-items: center;
+}
+.nav-links > h2 {
+  color: #1e0e62;
+  font-size: 16px;
+}
+.nav-links > h3 {
+  color: #15143966;
+  font-size: 16px;
+}
+.nav-links > h4 {
+  padding: 5px 22px;
+  border-radius: 20px;
+  background: #482be7;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 16px;
+}
+.container > h1 {
+  width: 35%;
+  font-size: 58px;
+  color: #1e0e62;margin-top: 75px
+}
+.para > p {
+  width: 30%;
+  color: #15143966;margin-top: -30px;line-height: 25px
+}
+.last-content {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  align-items: center;
+}
+.btn > h3 {
+  padding: 7px 15px;
+  border-radius: 20px;
+  background: #25dac5;
+  color: #ffffff;
+  font-weight: 300;
+}
+.learn-btn > h4 {
+  color: #1e0e62;
+}
+.boximg{
+    width: 33%;height: 68%;position: absolute;top: 150px ;right: 170px;border: 15px solid black;border-radius: 30px;transform: rotate(-1deg);background-image: url(https://cdn.wallpapersafari.com/63/88/4p3nT0.jpg);background-size: cover
+}
